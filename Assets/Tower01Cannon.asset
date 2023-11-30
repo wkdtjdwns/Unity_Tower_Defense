@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a5b81febcd133849a1ca1980141e0b9, type: 3}
+  m_Name: Tower01Cannon
+  m_EditorClassIdentifier: 
+  tower_prefab: {fileID: 3905470197412911901, guid: 57741e687a2077c48b956d44aca705fb, type: 3}
+  follow_tower_prefab: {fileID: 1165758429935782497, guid: d86f3f3bd9cbd4c488adef7a4eaac7e6, type: 3}
+  weapon:
+  - sprite: {fileID: 21300000, guid: 041ed41432bf8b04a84a29a71b81ed81, type: 3}
+    damage: 1
+    rate: 0.5
+    range: 2
+    cost: 50
+    sell: 25
+  - sprite: {fileID: 21300000, guid: e3074dcf4b76ccb49afa935749107dc3, type: 3}
+    damage: 1.5
+    rate: 0.4
+    range: 2.3
+    cost: 100
+    sell: 75
+  - sprite: {fileID: 21300000, guid: 219914fcf2df0984e911dcb845ce772e, type: 3}
+    damage: 2
+    rate: 0.3
+    range: 2.5
+    cost: 150
+    sell: 150
